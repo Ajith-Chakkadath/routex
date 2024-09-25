@@ -5,6 +5,8 @@ import image3 from '../assets/image3.jpg';
 import { IoPaperPlane } from "react-icons/io5";
 import { FaArrowLeft } from 'react-icons/fa6';
 import { FaArrowRightLong } from "react-icons/fa6";
+import { FaCheckSquare } from "react-icons/fa";
+import { IoCheckbox } from "react-icons/io5";
 
 const AboutSection = () => {
   return (
@@ -51,13 +53,13 @@ const AboutSection = () => {
           <div className="grid grid-cols-2 gap-3 mb-9">
             <div>
               <h1 className="flex items-center">
-                <IoPaperPlane className="mr-2" /> Safety Guideline
+                <IoCheckbox  className="mr-2 text-green-500 " /> Safety Guideline
               </h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div>
               <h1 className="flex items-center">
-                <IoPaperPlane className="mr-2" /> Migration Assistance
+                <IoCheckbox  className="mr-2 text-green-500" /> Migration Assistance
               </h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
